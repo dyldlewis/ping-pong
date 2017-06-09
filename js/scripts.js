@@ -1,19 +1,10 @@
 // back end logic //
 
-function numCheck(number) {
-  var result = ""
-  if (isNaN(number)) {
-    alert("Please enter a valid number");
-  };
-  return result;
-};
-
 function counter(num) {
   var result = []
   if (isNaN(num)) {
     alert("Please enter a valid number");
   } else {
-
       for (i = 1; i <= num; i += 1) {
         if (i % 15 === 0) {
         result.push("pingpong")
@@ -23,15 +14,20 @@ function counter(num) {
         result.push("pong")
       } else {
         result.push(i)
-      }
+        }
       };
-    }
+    };
   console.log(result)
   return result;
 };
 
-
-
+var displayArray = function(result) {
+  $("#result").empty();
+  result.forEach(function(index) {
+    $("#result").append("<li>" + index + "</li>")
+  });
+  return;
+}
 
 // front end logic //
 
@@ -40,8 +36,8 @@ $(document).ready(function() {
     event.preventDefault();
     var number = parseInt($("input#number-string").val());
     console.log(number);
-    var check = counter(number);
-    $("#result").text(check);
-
+    // var check = counter(number);
+    // $("#result").text(check);
+    displayArray(counter(number))
   });
 });
