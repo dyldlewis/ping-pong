@@ -1,3 +1,15 @@
+# Ping Pong
+
+#### Returns "ping", "pong", and "pingpong" for certain numbers
+
+#### By Dylan Lewis
+
+## Description
+
+This program requires a user to enter a number. Upon entering the number, the program will count from 1 up that number, replacing numbers divisible by 3 with "ping", numbers divisible by 5 with "pong", and numbers divisible by 15 with "pingpong".
+
+##Specs
+
 The program prompts the user for valid input when non-numerical items are entered.
   - example input: hello
   - example output: "Please enter a valid number"
@@ -18,3 +30,28 @@ The program replaces numbers divisible by 5 with the word "pong":
 The program replaces numbers divisible by 15 with the word "pingpong":
   - example input: 15
   - example output: [1,2,ping,4,pong,ping,7,8,9,pong,11,ping,13,14,pingpong]
+
+
+## Setup/Installation Requirements
+
+* Locate repository on github https://github.com/dyldlewis/ping-pong
+* Clone respository to local machine using git clone
+* Open file in web browser
+
+## Known Bugs
+
+There are no known bugs
+
+## Support and contact details
+
+For support or any other questions contact Dylan at dyldlewis@gmail.com
+
+## Technologies Used
+
+HTML, CSS, JavaSCript (Jquery), Bootstrap framework
+
+### License
+
+MIT
+
+Copyright (c) 2016 **Dylan Lewis**
