@@ -27,7 +27,7 @@ var displayArray = function(result) {
     $("#result").append("<li>" + index + "</li>")
   });
   return;
-}
+};
 
 // front end logic //
 
