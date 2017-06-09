@@ -40,4 +40,14 @@ body {
   font-size: 16px;
   font-family: cursive;
   font-weight: bold;
+  background-color: green;
+}
+
+#allRules {
+  border: white solid 3px;
+}
+
+.panel-title {
+  color: black;
+  font-weight: bold;
 }
