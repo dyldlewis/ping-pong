@@ -11,16 +11,17 @@
     <div class="container">
       <div class="jumbotron">
         <h1>Welcome to the Ping Pong Program!</h1>
+        <p> The premier ping pong app</p>
         <img src="img/pong.png" alt="ping pong paddles with ball">
       </div>
       <div class="main">
         <div class="row">
           <div class="col-md-8">
-            <div class="panel panel-success">
+            <div class="panel panel-danger">
               <div class="panel-heading">
                 <h1 class="panel-title">Rules</h1>
               </div>
-              <div class="panel-body">
+              <div class="panel-body" id="rules">
                 <p>This program will count up to your number with the following exceptions:</p>
                 <ol>
                   <li>Numbers divisible by 3 become "ping"</li>
@@ -31,15 +32,27 @@
             </div>
           </div>
         </div>
-        <form id="pong">
-          <label for="number-string">Enter a number to play Ping Pong!</label>
-          <input id="number-string" type="text">
-          <button type="submit" class="btn">Play!</button>
-        </form>
-        <div class="text">
-          <ul id="result">
+        <div class="row">
+          <div class="col-md-8">
+            <form id="pong">
+              <label for="number-string">Enter a number to play Ping Pong!</label>
+              <input id="number-string" type="text">
+              <button type="submit" class="btn">Play!</button>
+            </form>
+            <div class="output">
+              <ul id="result">
 
-          </ul>
+              </ul>
+            </div>
+          </div>
+          <div class=col-md-4>
+            <div class="pong-info">
+              <h1> The History of Ping Pong</h1>
+              <p>Like most other sports, table tennis had humble beginnings as a “parlor game,” open to anyone with access to a table, paddle, and ball. The game began in the 1880s, when lawn tennis players adapted their game to play indoors during the winter.
+              Ping-Pong is a trademark name for table tennis and associated equipment. The name “Ping-Pong” was invented by the English firm J. Jaques and Son at the end of the 1800s and later trademarked in the United States by Parker Brothers, the board game company.
+              The game quickly caught on, and as early as 1901, tournaments were being conducted with over 300 participants. The Ping-Pong Association was formed but was renamed The Table Tennis Association in 1922. </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

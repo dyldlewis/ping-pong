@@ -6,9 +6,38 @@ img {
 }
 
 .jumbotron {
-  background-color: white;
+  border: white solid 3px;
+  font-family: times;
+  background-color: green;
 }
 
+.jumbotron p {
+  font-family: fantasy;
+}
 body {
   background-color: tan;
+}
+
+#result {
+  font-size: 20px;
+}
+
+.pong-info {
+  border: white solid 3px;
+  padding: 5px;
+}
+
+.pong-info h1 {
+  font-family: fantasy;
+  text-align: center;
+}
+
+.pong-info p {
+  font-size: 16px;
+}
+
+#rules {
+  font-size: 16px;
+  font-family: cursive;
+  font-weight: bold;
 }
