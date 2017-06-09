@@ -36,8 +36,6 @@ $(document).ready(function() {
     event.preventDefault();
     var number = parseInt($("input#number-string").val());
     console.log(number);
-    // var check = counter(number);
-    // $("#result").text(check);
     displayArray(counter(number))
   });
 });

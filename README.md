@@ -8,7 +8,7 @@
 
 This program requires a user to enter a number. Upon entering the number, the program will count from 1 up that number, replacing numbers divisible by 3 with "ping", numbers divisible by 5 with "pong", and numbers divisible by 15 with "pingpong".
 
-##Specs
+## Specs
 
 The program prompts the user for valid input when non-numerical items are entered.
   - example input: hello
