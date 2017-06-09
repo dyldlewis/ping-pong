@@ -1,3 +1,5 @@
+// back end logic //
+
 function numCheck(number) {
   var result = ""
   if (isNaN(number)) {
@@ -7,14 +9,17 @@ function numCheck(number) {
 };
 
 function counter(num) {
-  result = []
+  var result = []
   for (i = 1; i <= num; i += 1) {
-    result += i;
+    if (i % 3 === 0) {
+    result.push("ping")
+  } else {
+    result.push(i)
+  }
   };
   console.log(result)
   return result;
 };
-
 
 
 
