@@ -6,7 +6,14 @@ function numCheck(number) {
   return result;
 };
 
-
+function counter(num) {
+  result = []
+  for (i = 1; i <= num; i += 1) {
+    result += i;
+  };
+  console.log(result)
+  return result;
+};
 
 
 
@@ -19,7 +26,7 @@ $(document).ready(function() {
     event.preventDefault();
     var number = parseInt($("input#number-string").val());
     console.log(number);
-    var check = numCheck(number);
+    var check = counter(number);
     $("#result").text(check);
 
   });
