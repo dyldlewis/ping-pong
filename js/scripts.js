@@ -11,9 +11,11 @@ function numCheck(number) {
 function counter(num) {
   var result = []
   for (i = 1; i <= num; i += 1) {
-    if (i % 3 === 0) {
+    if (i % 15 === 0) {
+    result.push("pingpong")
+  } else if (i % 3 == 0) {
     result.push("ping")
-  } else if (i % 5 == 0) {
+  } else if (i % 5 === 0) {
     result.push("pong")
   } else {
     result.push(i)
