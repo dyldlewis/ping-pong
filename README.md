@@ -35,8 +35,14 @@ The program replaces numbers divisible by 15 with the word "pingpong":
 ## Setup/Installation Requirements
 
 * Locate repository on github https://github.com/dyldlewis/ping-pong
-* Clone respository to local machine using git clone
-* Open file in web browser
+* Copy the link to the github repository
+* Open terminal on your computer
+* In terminal do the follow:
+  * Enter your desktop using 'cd desktop'
+  * type 'git lone (repository url)'
+  * type 'cd pingpong' to access the new directory
+  * type 'open index.html' to view the pingpong HTML on your browser
+* Input and number to see your results!
 
 ## Known Bugs
 
